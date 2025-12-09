@@ -81,7 +81,7 @@ RETURN path;
 ```
 > **Explicação:** A função `shortestPath` ignora o peso das interações e busca apenas o menor número de saltos (hops) entre o nó de origem (`Jon-Snow`) e o nó de destino (`Alerie-Hightower`). É útil para entender graus de separação social.
 
-![Shortest Path](shortestpath.png)
+![Shortest Path](shortpath.png)
 
 ## 4. Caminhos Ponderados com Dijkstra
 

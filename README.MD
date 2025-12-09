@@ -129,6 +129,14 @@ ORDER BY y.valor, m.id, d.date;
 ```
 > **Explicação:** Esta query localiza todos os eventos em que ambos os personagens participaram e navega "para trás" na árvore de tempo (do **Evento** para o **Dia**, **Mês** e **Ano**). O resultado é uma lista cronológica das interações, permitindo contar uma história.
 
+```text
+╒═══╤═════════╤═════════════╤═══════════════╤═══════════╕
+│Ano│Mes      │Data_Completa│Tipo           │Intensidade│
+╞═══╪═════════╪═════════════╪═══════════════╪═══════════╡
+│300│"Janeiro"│"300-1-21"   │"Indiretamente"│228        │
+└───┴─────────┴─────────────┴───────────────┴───────────┘
+```
+
 ## 6. Análise de Sazonalidade ("Mês Sangrento")
 
 Quais meses concentraram a maior quantidade de conflitos ou interações intensas?
